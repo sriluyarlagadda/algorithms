@@ -1,0 +1,90 @@
+inserting value: 20
+inserting value: 67
+inserting value: 3
+inserting value: 2
+inserting value: 12
+inserting value: 11
+inserting value: 13
+inserting value: 66
+inserting value: 68
+traversing tree....
+traversing node: &{20 <nil> 0xc20005f080 0xc20005f060}   &{3 0xc20005f040 0xc20005f0a0 0xc20005f0c0}   &{67 0xc20005f040 0xc20005f120 0xc20005f140}
+traversing node: &{3 0xc20005f040 0xc20005f0a0 0xc20005f0c0}   &{2 0xc20005f080 <nil> <nil>}   &{12 0xc20005f080 0xc20005f0e0 0xc20005f100}
+traversing node: &{2 0xc20005f080 <nil> <nil>}   <nil>   <nil>
+node: 2
+node left: <nil>
+node right: <nil>
+node: 3
+node left: &{2 0xc20005f080 <nil> <nil>}
+node right: &{12 0xc20005f080 0xc20005f0e0 0xc20005f100}
+traversing node: &{12 0xc20005f080 0xc20005f0e0 0xc20005f100}   &{11 0xc20005f0c0 <nil> <nil>}   &{13 0xc20005f0c0 <nil> <nil>}
+traversing node: &{11 0xc20005f0c0 <nil> <nil>}   <nil>   <nil>
+node: 11
+node left: <nil>
+node right: <nil>
+node: 12
+node left: &{11 0xc20005f0c0 <nil> <nil>}
+node right: &{13 0xc20005f0c0 <nil> <nil>}
+traversing node: &{13 0xc20005f0c0 <nil> <nil>}   <nil>   <nil>
+node: 13
+node left: <nil>
+node right: <nil>
+node: 20
+node left: &{3 0xc20005f040 0xc20005f0a0 0xc20005f0c0}
+node right: &{67 0xc20005f040 0xc20005f120 0xc20005f140}
+traversing node: &{67 0xc20005f040 0xc20005f120 0xc20005f140}   &{66 0xc20005f060 <nil> <nil>}   &{68 0xc20005f060 <nil> <nil>}
+traversing node: &{66 0xc20005f060 <nil> <nil>}   <nil>   <nil>
+node: 66
+node left: <nil>
+node right: <nil>
+node: 67
+node left: &{66 0xc20005f060 <nil> <nil>}
+node right: &{68 0xc20005f060 <nil> <nil>}
+traversing node: &{68 0xc20005f060 <nil> <nil>}   <nil>   <nil>
+node: 68
+node left: <nil>
+node right: <nil>
+searching for... 20
+traversing tree....
+traversing node: &{20 <nil> 0xc20005f080 0xc20005f060}   &{3 0xc20005f040 0xc20005f0a0 0xc20005f0c0}   &{67 0xc20005f040 0xc20005f120 0xc20005f140}
+traversing node: &{3 0xc20005f040 0xc20005f0a0 0xc20005f0c0}   &{2 0xc20005f080 <nil> <nil>}   &{12 0xc20005f080 0xc20005f0e0 0xc20005f100}
+traversing node: &{2 0xc20005f080 <nil> <nil>}   <nil>   <nil>
+traversing node: &{12 0xc20005f080 0xc20005f0e0 0xc20005f100}   &{11 0xc20005f0c0 <nil> <nil>}   &{13 0xc20005f0c0 <nil> <nil>}
+traversing node: &{11 0xc20005f0c0 <nil> <nil>}   <nil>   <nil>
+traversing node: &{13 0xc20005f0c0 <nil> <nil>}   <nil>   <nil>
+traversing node: &{67 0xc20005f040 0xc20005f120 0xc20005f140}   &{66 0xc20005f060 <nil> <nil>}   &{68 0xc20005f060 <nil> <nil>}
+traversing node: &{66 0xc20005f060 <nil> <nil>}   <nil>   <nil>
+traversing node: &{68 0xc20005f060 <nil> <nil>}   <nil>   <nil>
+traversing tree....
+traversing node: &{66 0xc20005f060 0xc20005f080 0xc20005f060}   &{3 0xc20005f120 0xc20005f0a0 0xc20005f0c0}   &{67 0xc20005f120 <nil> 0xc20005f140}
+traversing node: &{3 0xc20005f120 0xc20005f0a0 0xc20005f0c0}   &{2 0xc20005f080 <nil> <nil>}   &{12 0xc20005f080 0xc20005f0e0 0xc20005f100}
+traversing node: &{2 0xc20005f080 <nil> <nil>}   <nil>   <nil>
+node: 2
+node left: <nil>
+node right: <nil>
+node: 3
+node left: &{2 0xc20005f080 <nil> <nil>}
+node right: &{12 0xc20005f080 0xc20005f0e0 0xc20005f100}
+traversing node: &{12 0xc20005f080 0xc20005f0e0 0xc20005f100}   &{11 0xc20005f0c0 <nil> <nil>}   &{13 0xc20005f0c0 <nil> <nil>}
+traversing node: &{11 0xc20005f0c0 <nil> <nil>}   <nil>   <nil>
+node: 11
+node left: <nil>
+node right: <nil>
+node: 12
+node left: &{11 0xc20005f0c0 <nil> <nil>}
+node right: &{13 0xc20005f0c0 <nil> <nil>}
+traversing node: &{13 0xc20005f0c0 <nil> <nil>}   <nil>   <nil>
+node: 13
+node left: <nil>
+node right: <nil>
+node: 66
+node left: &{3 0xc20005f120 0xc20005f0a0 0xc20005f0c0}
+node right: &{67 0xc20005f120 <nil> 0xc20005f140}
+traversing node: &{67 0xc20005f120 <nil> 0xc20005f140}   <nil>   &{68 0xc20005f060 <nil> <nil>}
+node: 67
+node left: <nil>
+node right: &{68 0xc20005f060 <nil> <nil>}
+traversing node: &{68 0xc20005f060 <nil> <nil>}   <nil>   <nil>
+node: 68
+node left: <nil>
+node right: <nil>
